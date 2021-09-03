@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'inter', sans-serif;
+}
+
+body {
+    height: 100%;
+    background: #E5E5E5;
+}
+
+:root {
+    --sidebar-1-color: rgba(113, 104, 229, 0.1);
+    --sidebar-2-color: rgba(255, 255, 255, 1);
+}
+
+.container {
+    width: 1440px;
+    height: 800px;
+    margin: 8% auto;
+    background: #fff;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    display: -webkit-flex;
+    flex: 1;
+}
+
+.sidebar-1 {
+    background: var(--sidebar-1-color);
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    width: 850px;
+    height: 634px;
+    margin: 5% auto;
+    display: block;
+}
+
+.sidebar-2 {
+    background: var(--sidebar-2-color);
+    width: 100%;
+    height: 100%;
+    margin-left: 3%;   
+}
+
+.sidebar-1-wrapper {
+    width:475px;    
+}
+
+form {
+    width: 450px;
+    top: 100px;
+    /* left: 40px; */
+}
+
+form input {
+    width: 100%;
+    padding: 15px 10px;
+    outline: none;
+    background: transparent;
+}
+
+#email {
+    border: 1px solid rgba(0, 11, 173, 0.6);
+    border-radius: 5px;
+    margin-bottom: 2rem;
+}
+
+#password {
+    border: 1px solid rgba(229, 39, 85, 0.5);
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.after-form {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    align-items-center;    
+}
+
+.btn-box {
+    width: 100%;
+    margin: 40px auto; 
+    text-align: center;
+}
+
+.btn-box p {
+    font-size: 1.2rem;
+}
+
+#login {
+    width: 470px;
+    height: 45px;
+    margin: 0;
+    background: #1E40AF;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    cursor: pointer; 
+}
+
+.login-options {
+    text-align: center;
+    margin: 0 0 3rem 0;
+}
+
+.social-media-logos {   
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.social-media-logos img {
+    margin: 0 1rem 0 1rem;
+    width: 30px;
+    height: 30px;
+}
+
+#facebook {
+    margin-right: .3rem;
+}
+
+#google {
+    width: 40px;
+    height: 25px;
+    margin-left: -.1rem;
+}
+
+/* typography */
+h2 {
+    margin-top: 6rem;
+    font-size: 2.625rem;
+}
+
+.sidebar-1-wrapper > h2 {
+    font-weight: bold;
+}
+
+.sidebar-1-wrapper > p {
+    margin-bottom: 6rem;
+    font-size: 1.375rem;
+}
+
+.login-options p {
+    margin: 1rem 0;
+    color: rgba(229, 39, 85, 0.6);
+}
